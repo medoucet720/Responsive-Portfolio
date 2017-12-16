@@ -1,0 +1,430 @@
+<*{
+box-sizing: border-box;
+}
+
+
+body{
+	width:960px;
+	margin:0;
+
+}
+
+.background{
+	background-image: url("../images/circles-light.png");
+}
+
+.mainheader{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color:#ffffff;
+	float;left;
+	position:relative;
+	width:100%;
+	height:60px;
+	border-bottom:solid 2px #cccccc;
+	margin-bottom:20px;
+	font-size:18px;
+
+}
+
+.myname{
+	background-color:#4aaaa5;
+	color:#ffffff;
+	height:60px;
+	padding:20px;
+	float:left;
+	margin-left:40px;
+	font-weight: bold;
+	text-align:center;
+	
+
+}
+
+
+nav{
+	position:absolute;
+	top:0px;
+	right:200px;
+	padding-top:20px;
+	color:#777777;
+	float:right;
+	height:40px;
+	font-size:12px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
+
+}
+
+a{
+	color:#777777;
+	text-decoration: none;
+}
+h1{
+	clear:both;
+	color:#4aaaa5;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight:bold;
+	font-size:18px;
+
+}
+
+#maincontent{
+	margin-left:30px;
+	margin-right:10px;
+	height:500px;
+	width:650px;
+	display:inline-block;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+	border:solid 1px #dddddd;
+
+}
+
+
+aside{
+	width:270px;
+	height:170px;
+	float:right;
+	background-color:#ffffff;
+	border:solid 1px #dddddd;
+
+}
+
+#sociallink{
+	float:left;
+	margin-left:30px;
+	width:40px;
+	height:40px;
+	display:block;
+	
+}
+
+#aboutme{
+	padding:10px;
+	border-bottom: solid 2px #dddddd;
+	margin:10px;
+}
+
+#connect{
+	padding:10px;
+	color:#4aaaa5;
+	font-weight: bolder;
+	text-align:center;
+	border-bottom:solid 2px #dddddd;
+	margin:10px;
+	
+}
+
+#bioimage{
+	float:left;
+	width:125px;
+	height:175px;
+	padding:10px;
+
+}
+
+p{
+	text-align:left;
+	float:left;
+	width:80%;
+	font-size:12px;
+	color:#777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#contactform{
+	margin-left:30px;
+	margin-right:10px;
+	height:500px;
+	width:650px;
+	display:inline-block;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+	border:solid 1px #dddddd;
+	
+}
+
+#contact{
+	padding:10px;
+	border-bottom:solid 2px #dddddd;
+	margin:10px;
+	font-weight:bold;
+}
+
+
+form{
+	color:#777777;
+	margin:10px;
+
+}
+
+#submit{
+	background-color:#4aaaa5;
+	width:50px;
+	height:30px;
+}
+
+
+.imagetitle{
+	background-color:#4aaaa5;
+	color:white;
+	position:absolute;
+	top:100px;
+	left:0;
+	width:100%;
+	text-align:center;
+
+
+
+}
+
+#imagegallery{
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom: 20px;
+	height:100%;
+	width:650px;
+	display:inline-block;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+	border:solid 1px #dddddd;
+
+}
+
+#portfolio{
+	padding:10px;
+	border-bottom:solid 2px #dddddd;
+	margin:10px;
+	font-weight:bold;
+}
+
+
+.bottom{
+    position: absolute;
+    bottom: 30px;
+    padding:15px;
+    text-align:center;
+   	background-color:#4aaaa5;
+   	color:white;
+   	width:200px;
+    font-size: 18px;
+
+}
+
+
+
+.clearfix{
+	clear:both;
+}
+
+.imgholder1{
+	position:relative;
+	float:left;
+	padding:20px;
+	margin-left:80px;
+}
+
+.imgholder2{
+	position:relative;
+	float:left;
+	padding:20px;
+}
+
+
+
+footer{
+	clear:both;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	padding:20px;
+	margin-top:20px;
+	border-top:4px solid #4aaaa5;
+	color:white;
+	background-color: #666666;
+	text-align:center;
+
+}
+
+@media screen and (max-width: 980px){
+
+		.myname{
+			height:20px;
+			margin-left: 150px
+
+		}
+
+		#maincontent{
+			margin-left:200px;
+			width:275px;
+			height:600px;
+		}
+
+		p{
+			margin-left:20px;
+		}
+
+		#bioimage{
+			width:200px;
+			height:200px;
+			margin-left:20px;
+		}
+
+		aside{
+			float:right;
+			margin-right:200px;
+			height:125px;
+			width:225px;
+		}
+
+		#imagegallery{
+			width:350px;
+			margin-left: 150px}
+
+		.imgholder1, .imgholder2{
+			margin-left:60px;
+		}
+		.bottom{
+			width:170px;
+		}
+
+		#contactform{
+			width:350px;
+			height:425px;
+			margin-left:150px;
+		}
+
+		footer{
+			margin-top:20px;
+		}
+	
+}
+
+@media screen and (max-width: 768px){
+
+	#maincontent{
+		width:80%;
+		height:80%;
+		margin-left:60px;
+		margin-bottom:20px;
+		
+	}
+
+	#imagegallery {
+		width:80%;
+		margin-left:60px;
+	}
+
+	.mainheader, footer{
+		overflow:hidden;
+		width:768px;
+	}
+
+	
+
+	p{
+		float:none;
+	}
+
+
+
+	.background{
+		width:100%;
+	}
+		
+
+	.myname{
+		margin-left:60px;
+	}
+	
+	aside{
+		width:80%;
+		margin-left:60px;
+		margin-bottom:30px;
+		float:left;
+	}
+	#connect{
+		text-align:left;
+	}
+	nav{ 
+		overflow:hidden;
+
+	}
+
+	#contactform{
+		width:80%;
+		margin-left:60px;
+		margin-bottom:20px;
+	}
+
+	
+}
+@media screen and (max-width: 640px){
+
+	.background{
+		width:100%;
+	}
+
+	.mainheader{
+		position:static;
+		width:640px;
+		height:100px;
+	}
+	
+
+	.myname{
+		position:static;
+		text-align:center;
+		width:640px;
+		margin:0;
+		font-size:24px;
+	}
+
+	#maincontent{
+		margin-top: 20px; 
+		width:515px;
+		height:50%;
+	}
+
+	#bioimage{
+		margin-left:45px;
+		width:375px;
+		height:400px;
+	}
+
+	p{
+		margin-left:45px;
+	}
+
+
+
+	aside{
+		width:515px;
+		margin-bottom:20px;
+	}
+
+
+	nav{
+		width:640px ;
+		position:static;
+		text-align:center;
+		font-size:18px;
+		
+	}
+
+	footer{
+		margin-top:20px;
+		height:4px;
+	}
+
+	
+	#portimg{
+		width:425px;
+		height:400px;
+	}
+	.bottom{
+		width:395px;
+	}
+
+	.imgholder1, .imgholder2 {
+		margin-left:20px;
+	}
+}
